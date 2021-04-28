@@ -1,0 +1,10 @@
+En la lección de hoy, se considera la revisión del concepto de algoritmo.
+Un algoritmo describe las entradas, procesos y salidas de cierta actividad, por trivial que sea.
+
+Se consideran dos ejemplos, la elaboración de un completo y el cambio de una rueda:
+El primer ejemplo resulta menos robusto  y específico (existe una gran variedad de completos).
+
+El segundo ejemplo es más interesante: Hay pasos que son obligatorios de realizar en cierto orden,
+lo que afecta completamente el resultado a obtener, haciendo un algoritmo funcional o erroneo.
+
+De momento, todo está en el papel, faltaría aplicarlo en un ejercicio ya programando.
