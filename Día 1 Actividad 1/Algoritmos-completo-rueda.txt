@@ -1,0 +1,40 @@
+Algoritmo para preparar un completo suizo (Vianesa, tomate, queso)
+-> Buscar un tomate 
+-> Buscar pan de completo (sino, una marraqueta) 
+-> Buscar tantas vianesas como panes se dispongan 
+-> Buscar un recipiente donde hervir las vianesas
+-> Buscar queso (de preferencia mantecoso)
+-> Buscar donde preparar el queso (sarten pequeña)
+-> Pelar y cortar el tomate
+-> Hervir agua
+-> Añadir el agua ya hervida en el recipiente
+-> Añadir las vianesas a la olla con agua
+-> Calentar pan en horno a 110 °C
+-> Preparar el queso en la sarten pequeña
+-> Una vez hervida la vianesa, retirarla del agua y colocarla dentro de la marraqueta
+-> Agregar los ingredientes con orden a gusto (de preferencia: tomate, luego queso)
+-> Agregar salsas a gusto
+
+Entradas: Tomate, pan, agua, queso, vianesa
+Procesos: Buscar implementos. Preparar tomate. Hervir agua. Calentar pan. Preparar queso. Preparar completo.
+Salida: Un completo suizo
+
+------------------------------------------------------------------
+
+Algoritmo de cambio rueda de auto
+
+-> Revisar el tener: Rueda de repuesto, llave y gato.
+-> Revisar el tener una rueda de repuesto, en caso contrario, comprarla.
+-> Estacionar el auto en sitio llano, y poner luces de emergencia.
+-> Colocar triangulos de señalización y chaleco reflectante.
+-> Con la llave, aflojar tuercas de la rueda a cambiar.
+-> Ya aflojados los tornillos, levantar el vehículo con el gato hasta que la rueda apenas toque el suelo.
+-> Retirar la rueda, y disponerla junto al gato, en caso de que este falle.
+-> Colocar rueda de repuesto y apretar tornillos manualmente.
+-> Retirar rueda pinchada, bajar el vehículo, y una vez que la rueda de repuesto toque el suelo, quitar el gato.
+-> Apretar tornillos con llave.
+-> Retirar chaleco reflectante y triangulos de señalización.
+
+Entradas: Rueda de repuesto, gato, llave, chaleco reflectante, triangulos de señalización.
+Procesos: Revisar implementos. Estacionar auto de forma segura. Implementar seguridad vial. Aflojar/apretar tornillos. Quitar rueda. Uso de gato.
+Salida: Rueda con defectos.
