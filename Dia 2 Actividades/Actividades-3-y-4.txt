@@ -1,0 +1,66 @@
+Algoritmo que permite calcular rendimiento de combustible en km / L
+Especificar entradas, procesos, salidas, variables, constantes
+
+variable Float combustibleInicial;
+variable Float combustibleFinal;
+variable Float distanciaRecorrida;
+variable Float rendimiento = distanciaRecorrida / (combustibleInicial - combustibleFinal);
+
+Entrada: Distancia recorrida, consumo de combustible (delta de volúmen de combustible).
+Proceso: Obtener el valor de ls siguiente operación: distancia recorrida dividido entre la diferencia de cantidad de combustible.
+Salida:  Rendimiento del vehículo.
+
+----------------------------------------
+
+Ingresar a sitio web. Si no existe cuenta:
+Crear cuenta:
+	Nombre usuario,
+	dirección,
+	rut,
+	telefono,
+	contraseña
+	y logear
+sino,
+Logear con cuenta creada.
+
+Seleccionar producto
+Seleccionar cantidad de producto
+
+Agregar a canasta
+Determinar total de la compra (sum (producto * precioProducto))
+Pagar
+
+completar datos de cliente (nombre receptor,correo ,direccion de entrega,teléfono receptor,rut receptor)
+Determinar el medio de pago, opciones de pago
+-tipo de pago
+-transferencia
+-pago debito
+-pago credito
+Confirmación de compra
+
+direccionado a pagina bancaria
+ingresar datos pagina bancaria
+comprobacion de pago
+retorno a sitio web de compras
+finalizar compra
+recibir boleta electronica y orden de compra
+
+Variables:
+String nombres, rut, direcciones, correos, dirección, tipo de pago 
+cantidad int
+precio int
+telefono int
+total int
+
+
+Entrada: Usuario, datos de usuario, datos de pago, productos y cantidad de productos
+Procesos:
+Login (nombre, contraseña)
+Creación de cuenta (Nombre usuario,dirección,rut,telefono,contraseña)
+Completar datos (nombre receptor,correo ,direccion de entrega,teléfono receptor,rut receptor)
+Determinar medio de pago (medio de pago)
+Determinal total de compra (precio * cantidad)
+Confirmar pago ();
+Realizar pago (Externo)
+Finalizar compra
+Salida: Boleta electrónica, orden de compra, productos
