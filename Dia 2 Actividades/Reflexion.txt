@@ -1,0 +1,21 @@
+
+
+Algoritmos poseen entradas, procesos y salidas.
+Es necesario considerar la integración de variables: Espacios de memoria que pueden cambiar su contenido a lo largo de la ejecución de un programa.
+Memoria principal -> RAM, en ejecución volátil.
+Almacenamiento -> Información permanece allí.
+
+Se definen variables y sus posibles tipos (textos, números, booleanas, char, String, DATE)
+
+Tipo Date fue asignado al grupo 4:
+Date permite almacenar fechas con distintos formatos, representando los años, meses y dias como números.
+
+Aplicaciones que tendría:
+Determinar si una fecha es posterior o anterior a otra fecha (serviría para registrar horas médicas, por ejemplo) after o before()
+Si las fechas son iguales (para una alarma) compareTo,
+Y asignar una fecha (a un evento, como un vuelo) setTime
+
+Float y Double son similares, al parecer Double permite un mayor almacenamiento de dato, necesito investigarlo.
+
+Se considera el ejemplo de determinar el rendimiento de un vehículo. Se comprende el problema.
+Compra online resulta más complicado pero posible de realizar.
