@@ -1,0 +1,13 @@
+Se presenta el control de flujo en algorítmos. Condicionales o control(if, else if , else).
+Son comparativas, incluso si no se ve explicito (if (a)) con a == true o a==false.
+
+Es una buena práctica considerar los valores o condiciones de borde de los condicionales.
+Se explican procesos más complejos, con multiples variables y de distinto tipo (listas).
+
+Teoría de conjuntos: grupo de elementos que cumplen con ciertas condiciones (animales, números).
+Se introduce el concepto de clases y conjuntos.
+
+Lógica proposicional -> Evaluación de variables (true or false). Hay conectivas, que permiten comparaciones más complejas (y, o, not)
+
+Simples -> No lleva [y o not] y sin operadores lógicos. (El mundo es redondo, las mujeres son seres humanos, 3*4 = 12), son verdaderas o falsas.
+Proposiciones se refieren al estado actual de un valor
