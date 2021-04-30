@@ -1,0 +1,108 @@
+Ejemplo----------
+
+Var Float promedio;
+Final Float notaLimite = 4,0;
+Var String estado;
+
+Var List<Float> notas;
+Var int cantidadNotas = notas.size();
+
+Var Float sumaNotas;
+for (int i = 0; notas.size(); i++){
+	sumaNotas += notas.get(i);
+}
+
+promedio = sumaNotas/cantidadNotas;
+
+Si (promedio < notaLímite){
+	estado = "Has reprobado";
+}
+Sino {
+	estado = "Has aprobado con nota: " + promedio;
+}
+
+
+Entrada: notas.
+Proceso: Cálculo de promedio, y comparar promedio con nota límite.
+Salida: String que representa aprobación/reprobación.
+
+-----------------------------------------------------------------
+Ejercicio 1:
+
+Var boolean acreedor;
+Var Float promedioAnterior;
+Var Float promedioActual;
+Var int cantidadAnterior = 6;
+Var int cantidadActual = 6;
+Var List<Float> AnterioresMeses;
+Var List<Float> ActualesMeses;
+Var Float sumaAnterior = AnteriorMes1 + AnteriorMes2 + AnteriorMes3 + AnteriorMes4 + AnteriorMes5 + AnteriorMes6; (contenidos en lista)
+Var Float sumaActual = ActualMes1 + ActualMes2 + ActualMes3 + ActualMes4 + ActualMes5 + ActualMes6; (contenidos en lista)
+promedioAnterior = sumaAnterior / cantidadAnterior;
+promedioActual = sumaActual / cantidadActual;
+
+Var Float disminucion = promedioAnterior * 0.2;
+Si (disminucion + promedioActual > promedioAnterior){
+	acreedor = false;
+} 
+sino {
+	acreedor = true;
+}
+
+Entrada: Lista de valores, cantidad de valores.
+Proceso: Calcular suma de valores dentro de listas, calcular promedios, comparar valores con disminución.
+Salida: boolean que representa si es acreedor o no.
+
+---------------------
+
+
+Conjunto y tipo de dato
+
+Servel
+Conjuntos / tipo
+Funcionarios = string
+padrón electoral = int
+partidosPolíticos = string
+candidatos= string
+votosObtenidos = int
+cantidadCircunscripciones = int
+
+Conjunto de datos de un banco
+• Caja:
+o Id: int
+o Cajero: cajero
+• Cajero:
+o Id: int
+o Nombre : string
+• Módulo:
+o Id: int
+o Nombre: string
+o Ejecutivo: ejecutivo
+• ejecutivo:
+o id:int
+o nombre: string
+• sucursales
+o id: int
+o dirección: string
+o módulos: lista de módulo
+o cajas: lista de cajas
+
+Instagram (Conjuntos se pueden agrupar en Listas según su clase, denotado en mayúscula List<Clase> clase)
+Usuario usuario: Long id, String username, String correo, String password, boolean estaConectado, List<Usuario> mejoresAmigos, List<Seguidor> seguidores, List<Seguidor> seguidos;
+Mensaje mensaje: Long id, Date fechaEnvio, Date fechaLeido, String contenido, int idEmisor, int idReceptor, boolean esLeido;
+Foto foto: Long id, Date fechaSubida, String referenciaImagen, String pieDePagina, List<Integer> ids, List<String> comentarios, List<Usuario> likes;
+Video video: Long id, Date fechaSubida, String referenciaVideo, String pieDePagina, List<Integer> ids, List<String> comentarios, List<Usuario> likes;
+Seguidor seguidor: Long id (referido a usuario)
+Historia historia: boolean isDestacada, boolean isPrivate, boolean pushNotification, int duracion, Date fechaSubida, List<Usuario> seenBy, List<Integer> ids, List<String> comentarios, List<Usuario> likes
+Opciones opciones: boolean dobleAutenticacion, boolean modoNoche
+
+
+var int numero1 = 1;
+var int numero 2 = 4;
+
+1) numero1 + numero2 == 5 //true
+2) Considerando un teléfono: Está encendido
+3) Considerando un electrodoméstico: Está enchufado
+4) Considerando el clima: La temperatura actual supera los 10 °C
+5) Considerando un auto: Está encendido
+6) Considerando un completo: Es un italiano
