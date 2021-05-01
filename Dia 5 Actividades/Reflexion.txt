@@ -1,0 +1,20 @@
+Proposiciones complejas
+y, o, not con otra proposición o expresión a evaluar. Simples son solo un statement sin negaciones.
+
+Expresiones lógicas ( o and not) 
+Relacionales (lt, gt, ==, !=) 
+Aritméticas (+ - * /)
+Sencillas y ya vistas
+
+Diagramación de algoritmos
+Ya más cercano a lo real
+Diagramas de flujo (UML)
+Sencillos y fáciles de entender Representar un proceso en serie de pasos claros y unitarios que se encuentran en un algoritmo
+Componentes
+Redondo Inicio y final
+Linea de flujo
+Entradas y salidas / trapecio
+Rectangulo proceso
+Rombo decisión If
+
+Es materia ya vista, pero sirve reforzarla
