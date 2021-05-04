@@ -1,0 +1,63 @@
+Ciclos
+
+While mientras condición se cumple. Requiere evaluar un condición en cada iteración (puede ser única o múltiple)
+Room5
+
+While -> Estructura que ejecuta un bloque de código repetidamente hasta que se cumple una condición.
+Es importante considerar que condición evaluar, ya que se puede formar un bucle infinito
+
+i = 0;
+While (i < 5){
+	print (i);
+	i++;
+} //0, 1, 2 ,3 ,4
+
+
+------------Eso va a ejercicio/avances
+
+arreglos multiples valores, del mismo tipo
+indice entre [index]
+final n - 1
+obtener valores de arreglo -> a traves de su índice (array.get(x))
+Arrays parten desde 0. último = array.size() - 1  
+
+Room 5
+
+Algoritmo de arreglo (edad 10 personas, while recorrer edades )
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+List<Integer> notas = new ArrayList<Integer>(Arrays.asList(8,20,28,30,9,70,60,18,19,32));
+int mayores = 0;
+int menores = 0;
+int index = 0;
+while (index < notas.size()) {
+if (notas.get(index) >= 18) {
+mayores++;
+}
+else {
+menores++;
+}
+System.out.println(notas.get(index));
+index++;
+}
+System.out.println("Mayores: " + mayores);
+System.out.println("Menores: " + menores);
+}
+
+1) Hago un array con las edades, luego asigno mayores y menores como 0 (ya que no sé cuantos hay antes de recorrer el array). 
+Luego, asigno mi indice como index.
+El while considera el índice sea menor al total de datos (notas.size())
+a partir de eso, evaluo si la nota que extraigo (notas.get(index)) es mayor o igual a 18. 
+En ese caso, le sumo 1 a mayores (mayores++), de caso contrario, le sumo 1 a los menores (menores++)
+finalmente, muestro por consola la cantidad de menores y menores de edad
+
+
+Arreglos bidimensionales (tablas de datos)
+value[Columna index][Fila jindex]
+
+
+
+
+
+ 

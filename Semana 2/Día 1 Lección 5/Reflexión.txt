@@ -1,0 +1,19 @@
+Ciclos
+
+While mientras condición se cumple. Requiere evaluar un condición en cada iteración (puede ser única o múltiple)
+
+While -> Estructura que ejecuta un bloque de código repetidamente hasta que se cumple una condición.
+Es importante considerar que condición evaluar, ya que se puede formar un bucle infinito
+Un ejemplo simple
+
+i = 0;
+While (i < 5){
+	print (i);
+	i++;
+} //0, 1, 2 ,3 ,4
+
+Arreglos permiten guardar distintos valores pero del mismo tipo (List<Type>())
+Se define un algoritmo que tiene como entrada una lista de valores enteros y calcula cuales son mayores o iguales a 18.
+Posteriormente, se plantea el uso de arreglos bidimensionales (aka Matrices), y se deja planteado un ejercicio (será subido mañana).
+
+El uso de matrices de mayores dimensiones es límitado (principalmente en representaciones espaciales de objetos y su posición/momentum)
