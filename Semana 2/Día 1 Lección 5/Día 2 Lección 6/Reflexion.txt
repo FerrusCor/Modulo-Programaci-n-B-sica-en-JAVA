@@ -1,0 +1,10 @@
+Procedimientos y funciones
+Función -> recibe parametros, realiza operaciones, retorna una salida. (entra harina e ingredientes,se procesan ingredientes, sale un queque)
+Procedimiento -> recibe parámetros, realiza operaciones, pero la salida es "vacía".
+	Resultan similares. Un procedimiento serviría para cambiar los valores de las variables de un programa, sin necesidad de retorno del
+	mismo objeto. Resulta práctica cuando un programa ya tiene un gran tamaño y resulta ineficiente el acceder mediante funciones.
+	
+Entorno Java para programación
+Java = Lenguaje de programación
+Abstracción
+Multiplataforma, similar a C++
