@@ -1,0 +1,21 @@
+Dia 2 Lección 7
+Existen distintos tipos de datos (númericos como Int, Float, Integer, etc)
+Conversión de tipos de datos cuando los dos tipos de datos son compatibles: Casting
+
+Existen dos tipos de casting:
+1) De ampliación (implícito, automático).
+La particularidad es que un tipo de dato más pequeño pasa a ser uno más grande
+
+2) Conversión explicita de tipo (Casting)
+Un tipo de dato más grande pasa a ser uno más pequeño
+
+Parse (Conversion entre tipos "incompatibles")
+Normalmente son entre String y algún tipo númerico.
+
+Es necesario notar que para realizar estas conversiones, se llama a la Clase Integer, y no al tipo primitivo int.
+Como Clase, Integer posee los métodos necesarios para realizar las conversiones ya indicadas anteriormente.
+
+Primitivos se escriben en minúscula
+Wrapper/Objetos se escriben en Mayúscula 
+
+Ahora comienza lo entretenido.

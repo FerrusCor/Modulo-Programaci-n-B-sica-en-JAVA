@@ -1,0 +1,65 @@
+Existen distintos tipos de datos (númericos como Int, Float, Integer, etc)
+Grupo 2
+
+Tipos de datos tamaño y valores permitidos
+Tipos de datos más grande a pequeños
+Gráficos convertir datos de java y observaciones.
+
+
+Conversión de tipos de datos cuando los dos tipos de datos son compatibles: Casting
+
+Existen dos tipos de casting:
+1) De ampliación (implícito, automático).
+La particularidad es que un tipo de dato más pequeño pasa a ser uno más grande:
+byte -> short -> int -> long -> float -> float
+
+int i = 100; 
+         
+        //conversion automatica de tipo
+        long l = i; 
+         
+        //conversion automatica de tipo
+        float f = l; 
+        System.out.println("Valor Int "+i);   // Valor Int 100
+        System.out.println("Valor Long "+l);  // Valor Long 100
+        System.out.println("Valor Float "+f); // Valor Float 100.0
+2) Conversión explicita de tipo (Casting)
+Un tipo de dato más grande pasa a ser uno más pequeño:
+double -> float -> long -> long -> int -> short -> byte
+
+double d = 100.04; 
+         
+        //casting de tipo
+        long l = (long)d;
+         
+        //casting de tipo
+        int i = (int)l; 
+        System.out.println("Valor Double "+d); //Valor Double 100.04
+         
+        //parte fraccionaria perdida
+        System.out.println("Valor Long "+l);   // Valor Long 100
+         
+        //parte fraccionaria perdida
+        System.out.println("Valor Int "+i);    // Valor Int 100
+		
+		
+Promociones: Ocurre al evaluar expresiones. Si un valor intermedio excede el valor máximo del tipo involucrado, ocurre la promoción.
+Si existe un operando de orden superior (mayor rango) y operandos de menor orden, la expresión final será del orden mayor (int * float = float)
+
+
+Parse (Conversion entre tipos "incompatibles")
+Normalmente son entre String y algún tipo númerico.
+
+//De String a int:
+        String cadena1 = "123";
+        int entero = Integer.parseInt(cadena1);
+
+//Convertir número en cadena con método toString()
+	int numero1 = 720;
+	String cadena1 = Integer.toString(numero1);
+
+Es necesario notar que para realizar estas conversiones, se llama a la Clase Integer, y no al tipo primitivo int.
+Como Clase, Integer posee los métodos necesarios para realizar las conversiones ya indicadas anteriormente.
+
+Primitivos se escriben en minúscula
+Wrapper/Objetos se escriben en Mayúscula 
