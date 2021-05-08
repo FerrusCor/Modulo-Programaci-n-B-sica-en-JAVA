@@ -1,0 +1,7 @@
+El uso de unidades condicionales (o de decisión) y unidades repetitivas nos permite la creación de programas de mayor complejidad
+La estructura tipo switch resulta más atractiva en el uso de menú de opciones.
+Se puede utilizar condiciones ya conocidas como true en control de flujo While
+
+Este tipo de estructuras, combinadas con el uso de métodos, resulta útil para crear un método Main mucho más estilizado y
+más entendible por parte del programador.
+Nos acercamos más a la realidad de programación.
