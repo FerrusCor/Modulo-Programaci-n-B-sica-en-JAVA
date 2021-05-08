@@ -1,0 +1,10 @@
+Los operadores de mayor uso son de tipo aritméticos, asginación, relacionales, incremento y lógicos
+
+Dentro de los operadores, los que tienen mayor uso son:
+sumas, restas, multiplicación, division y módulo (muy útil para determinar pares)
+asignaciones tipo +=, relacionales tipo ==, !=, lógicos y unarios.
+
+
+Existen estructuras cíclicas, que permiten realizar acciones n veces necesarias naturalmente, o con condiciones.
+Para esto, tenemos los while, do while y los condicionales if/else if/else  
+Este tipo de estructura son esenciales para el desarrollo de programas.
