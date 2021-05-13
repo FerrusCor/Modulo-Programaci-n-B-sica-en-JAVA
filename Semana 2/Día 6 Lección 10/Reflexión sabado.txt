@@ -1,0 +1,12 @@
+Reflexión Sabado
+
+Se presentan los conceptos de arreglos (entidades que pueden almacenar colecciones de objetos, siempre y cuando sean de la misma clase)
+Se pueden acceder a estos objetos mediante los operadores [índice]
+
+Cabe mencionar la existencia de listas de tipo estática (tamaño condicionado por usuario)
+int[] numeros = new int[10];
+ y listas dinámicas (arraylist, crecen según la necesidad)
+ List<Integer> edades = new ArrayList<Integer>();
+ 
+Resultan idoneas las listas estáticas
+
