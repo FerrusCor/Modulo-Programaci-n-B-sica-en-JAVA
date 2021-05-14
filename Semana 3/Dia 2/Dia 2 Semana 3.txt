@@ -1,0 +1,7 @@
+Dia 2
+A partir del proyecto planteado, se considera los nuevos avances de la carta Gantt, en su primera fase.
+Se presentan más avances en el código. Se utilizará patrón de diseño entre MVC y Facade.
+Se consideran nuevos avances del código, y se plantea que algunas unidades deben ser cubiertas con anterioridad para realizar dichas tareas
+involucradas al proyecto.
+
+Se indica que se cubriran temas como contructores en un pequeño proyecto aparte, considerando tambien herencia y polimorfismo, como conceptos clave.
