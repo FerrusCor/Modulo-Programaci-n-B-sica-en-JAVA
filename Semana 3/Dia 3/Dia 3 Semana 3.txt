@@ -1,0 +1,7 @@
+Dia 3 Semana 3
+A partir de la carta Gantt, nos dimos cuenta que es necesario realizar un repaso de materia antes de continuar con las tareas de mayor nivel.
+Se considera el repaso de método constructor, herencia, polimorfismo, método toString() y accesadores y mutadores.
+Carta Gantt comienza a ser modificada.
+Avances menores en el código.
+Se considera la posibilidad de ingresar dos tipos de usuario, pero de momento la idea es descartada, ya que en primera instancia
+consideramos que el programa debe tener funcionalidad y luego agregar el módulo de más usuarios cuando el programa este en fases finales.
