@@ -1,0 +1,8 @@
+Reflexión lunes
+
+Se define el proyecto de Traza COVID, que busca identificar los pacientes, sus contactos y diagnósticos.
+Se considera también que esta aplicación, corregiría la cuantificación de casos posibles de COVID (según investigación realizada por Enrique Herrera,
+existe un conteo inferior al real).
+
+Se incluyen todos los factores necesarios, creando en primera instancia una maqueta sencilla con la clase main y gran parte de los parámetros de las entidades
+Se incluye la clase de pruebas de manera adicional, y su dependencia.
