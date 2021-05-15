@@ -1,0 +1,6 @@
+Dia 4 Semana 3
+A partir de la carta Gantt, nos dimos cuenta que es necesario realizar un repaso de materia antes de continuar con las tareas de mayor nivel.
+Se realiza repaso grupal de método constructor estandar y vacío, herencia, polimorfismo, método toString() y accesadores y mutadores.
+El repaso se aplica a clases hipotéticas (main, Animal que hereda a Gato), y se ve su aplicación en la prueba de módulo.
+Carta Gantt comienza a ser modificada.
+Existen avances en investigación de SOLID y JUnit por parte del grupo
